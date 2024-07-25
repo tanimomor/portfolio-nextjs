@@ -58,37 +58,11 @@ const Hero = () => {
             </div>
 
 
-            {/*<div*/}
-            {/*    className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}*/}
-            {/*>*/}
-            {/*    <div className='flex flex-col justify-center items-center mt-5'>*/}
-            {/*        <div className='w-5 h-5 rounded-full bg-[#915EFF]'/>*/}
-            {/*        <div className='w-1 sm:h-80 h-40 violet-gradient bg-red-300'/>*/}
-            {/*    </div>*/}
-
-            {/*    <div>*/}
-            {/*        <h1 className={`${styles.heroHeadText} text-white`}>*/}
-            {/*            Hi, I'm <span className='text-[#915EFF]'>Tanim</span>*/}
-            {/*        </h1>*/}
-            {/*        <p className={`${styles.heroSubText} mt-2 text-white-100`}>*/}
-            {/*            I develop 3D visuals, user <br className='sm:block hidden'/>*/}
-            {/*            interfaces and web applications*/}
-            {/*        </p>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-
-
             <div className="flex justify-center relative my-20 z-10">
                 <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
                     <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
                         Fullstack Expertise in Next.js, Django, UI/UX, and DevOps
                     </p>
-
-                    {/**
-                     *  Link: https://ui.aceternity.com/components/text-generate-effect
-                     *
-                     *  change md:text-6xl, add more responsive code
-                     */}
                     <TextGenerateEffect
                         words="Transforming Concepts into Seamless User Experiences"
                         className="text-center text-[40px] md:text-5xl lg:text-6xl"
@@ -97,7 +71,6 @@ const Hero = () => {
                     <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
                         Hi! I&apos;m Tanim, a Fullstack Developer From Bangladesh.
                     </p>
-
                     <a href="#projects">
                         <MagicButton
                             title="See my work"

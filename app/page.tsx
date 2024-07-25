@@ -1,4 +1,4 @@
-"use client";
+"use client"
 
 import { navItems } from "@/data";
 
@@ -11,6 +11,7 @@ import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Tech from "@/components/Tech";
+import About from "@/components/About";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
         <Hero/>
+        {/*<About />*/}
         <Tech />
         <Grid/>
         <RecentProjects/>

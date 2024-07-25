@@ -77,7 +77,7 @@ export const projects = [
         img: "/Quiket.png",
         img2: "/quiket2.png",
         img3: "/quiket3.png",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+        iconLists: ["/assets/tech/Django.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
         link: "https://www.quicket.me",
     },
     {
@@ -90,11 +90,12 @@ export const projects = [
     },
     {
         id: 3,
-        title: "AI Image SaaS - Canva Application",
-        des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-        img: "/p3.svg",
+        title: "Next-Level Food App",
+        des: "Share delicious recipes created by you!",
+        img: "/project_images/nextjsfoodapp/Image1.png",
+        img2: "/project_images/nextjsfoodapp/Image2.png",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "/ui.aiimg.com",
+        link: "https://nextjs-food-app-puce.vercel.app/",
     },
     {
         id: 4,
